@@ -53,6 +53,7 @@ In this project, a Linux virtual machine needs to be configurated to support the
     * On your local machine, read the generated public key
      `cat ~/.ssh/FILE-NAME.pub`
     * On your virtual machine
+      ```
       $ su - grader
       $ cd /home
       $ mkdir .ssh
