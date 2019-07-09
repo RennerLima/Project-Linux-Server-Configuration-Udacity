@@ -3,7 +3,7 @@ This is the fifth project for "Full Stack Web Developer Nanodegree" on Udacity.
 
 In this project, a Linux virtual machine needs to be configurated to support the Item Catalog website.
 
-*IP ADDRESS: 3.14.255.28 
+* IP ADDRESS: 3.14.255.28 
 * SSH PORT: 2200
 ## Start a new Ubuntu Linux Server instance on Amazon Lightsail
 1. Create an AWS account
