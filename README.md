@@ -53,12 +53,13 @@ In this project, a Linux virtual machine needs to be configurated to support the
     * On your local machine, read the generated public key
      `cat ~/.ssh/FILE-NAME.pub`
     * On your virtual machine
+      ``
       $ su - grader
       $ cd /home
       $ mkdir .ssh
       $ touch .ssh/authorized_keys
       $ nano .ssh/authorized_keys
-      ```
+      ``
     * Copy the public key to this _authorized_keys_ file on the virtual machine and save
 3. Run `chmod 700 .ssh` and `chmod 644 .ssh/authorized_keys` on your virtual machine to change file permission
 4. Restart SSH: `$ sudo service ssh restart`
